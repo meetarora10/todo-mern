@@ -1,0 +1,45 @@
+/* add.js */
+.add-form {
+    display: flex; /* Arrange label, input, and button in a row */
+    align-items: center; /* Vertically align items in the center */
+    margin-bottom: 20px; /* Add some space below the form */
+  }
+  
+  .add-form label {
+    margin-right: 10px; /* Space between label and input */
+    font-weight: bold;
+  }
+  
+  .add-form input[type="text"] {
+    flex-grow: 1; /* Allow input to take up available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .add-form input[type="text"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow on focus */
+  }
+  
+  .add-form button[type="submit"] {
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 10px; /* Space between input and button */
+  }
+  
+  .add-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  
+  .add-form button[type="submit"]:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow on focus */
+  }

@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "price": 0.5,
+      "checked": false
+    },
+    {
+      "id": "2",
+      "name": "Banana",
+      "price": 0.3,
+      "checked": false
+    },
+    {
+      "id": "3",
+      "name": "Carrot",
+      "price": 0.2,
+      "checked": false
+    },
+    {
+      "id": "4",
+      "name": "momos",
+      "price": 90,
+      "checked": false
+    },
+    {
+      "id": "6",
+      "name": "pizza",
+      "price": 900,
+      "checked": false
+    },
+    {
+      "id": "7",
+      "name": "chiku",
+      "price": 99,
+      "checked": false
+    },
+    {
+      "id": "8",
+      "name": "kinu",
+      "price": 77,
+      "checked": false
+    }
+  ]
+}
