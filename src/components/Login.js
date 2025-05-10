@@ -13,6 +13,7 @@ function Login() {
     e.preventDefault();
     try {
       const res = await axios.post(`http://localhost:5000/api/auth/login`, { email, password }, {withCredentials: true});
+      console.log(res.data);
       // Save token or user info if needed
       localStorage.setItem("token", res.data.token);
       navigate('/todos');
@@ -43,6 +44,7 @@ function Login() {
         name="password"
       />
       <button type="submit">Login</button>
+      <p>Don't have an account? <a href="/">Sign up</a></p>
     </form>
   );
 }

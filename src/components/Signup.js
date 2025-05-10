@@ -17,7 +17,7 @@ function Signup() {
       alert('Signup successful! Login now');
       navigate('/login');
     } catch (err) {
-      alert('Signup failed');
+      alert('User already exists');
       console.log(err);
       setEmail('');
       setPassword('');

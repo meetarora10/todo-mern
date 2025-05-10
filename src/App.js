@@ -98,7 +98,7 @@ function App() {
   }
   const handleLogout = async () => {
     await axios.post('http://localhost:5000/api/auth/logout',null,{withCredentials:true});
-    navigate('/');
+    navigate('/login');
   }
   const handleAdd = async(e) => {
     e.preventDefault();
